@@ -1,0 +1,87 @@
+ul.bepro_listings_gallery_show li{
+	list-style-type:none;
+	display:inline;
+	margin-left:10px;
+}
+ul.bepro_listings_gallery_flat li{
+	list-style-type:none;
+	display:inline;
+	margin-left:10px;
+}
+div.bepro_listings_gallery_thumbnails img{
+	width:10%;
+}
+ul.bepro_listings_gallery_show li a img,ul.bepro_listings_gallery_flat li.bepro_first_thumb a img{
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+	-webkit-transition: all ease-in-out .2s;
+	-moz-transition: all ease-in-out .2s;
+	-o-transition: all ease-in-out .2s;
+	transition: all ease-in-out .2s;
+}
+ul.bepro_listings_gallery_show li.bepro_first_thumb a img,ul.bepro_listings_gallery_flat li.bepro_first_thumb a img{
+	width:50%;
+}
+.bepro_listings_slider2, .bepro_listings_slider1{
+	opacity:0;
+}
+/* style stock gallery */
+.gallery-item{
+	float:left;
+}
+
+.bepro_listings_slider1 li,.bepro_listings_slider2 li{
+	left: 0;
+}
+
+#cee_prev{
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: -40px;
+	text-transform: capitalize;
+}
+#cee_next{
+	text-align: right;
+	color: #fff;
+	font-weight: bold;
+	margin-right: -10px;
+	text-transform: capitalize;
+	right:-30px !important;
+}
+#cee_count{
+	color: #fff;
+	font-weight: bold;
+}
+#cee_closeBtn{
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+#cee_closeBtn:hover{
+	color:gold;
+	text-decoration: underline;
+}
+#cee_box{
+	height:90% !important;
+	margin:auto;
+	background-color:#fff;
+}
+#cee_ajax{
+	width:100% !important;
+	margin:auto;
+}
+#is_html5 video, #is_html5 audio, #cee_vid, #not_html5 .bl_media{
+	margin:auto;
+	display: inherit;
+}
+.media_title{
+	color:#000;
+}
+#cee_box #cee_vid{
+	width:560px !important;
+}
+#cee_count{
+	color:#000;
+}
